@@ -1,0 +1,10 @@
+#use_cache "/home/hexintek/Moment/Code/Demo/opencv/.cache"
+#do_unpack "v0.1.2d.zip" "dbb095a8bf3008e91edbbf45d8d34885" "https://github.com/opencv/ade/archive/v0.1.2d.zip" "/home/hexintek/Moment/Code/Demo/opencv/build/3rdparty/ade"
+#cmake_download "/home/hexintek/Moment/Code/Demo/opencv/.cache/ade/dbb095a8bf3008e91edbbf45d8d34885-v0.1.2d.zip" "https://github.com/opencv/ade/archive/v0.1.2d.zip"
+#try 1
+#   Trying 20.205.243.166:443...
+# connect to 20.205.243.166 port 443 failed: Connection timed out
+# Failed to connect to github.com port 443 after 130566 ms: Couldn't connect to server
+# Closing connection 0
+# 
+

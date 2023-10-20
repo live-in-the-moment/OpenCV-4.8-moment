@@ -1,0 +1,907 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83472/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83472.dir/build.make CMakeFiles/cmTC_83472.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_83472.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_83472.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_83472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83472.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_83472.dir/src.c.o -o cmTC_83472 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df111/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df111.dir/build.make CMakeFiles/cmTC_df111.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_df111.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_df111.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_df111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df111.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_df111.dir/src.cxx.o -o cmTC_df111 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea3db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea3db.dir/build.make CMakeFiles/cmTC_ea3db.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ea3db.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_ea3db.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_ea3db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3db.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_ea3db.dir/src.cxx.o -o cmTC_ea3db 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aae56/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aae56.dir/build.make CMakeFiles/cmTC_aae56.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_aae56.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_aae56.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_aae56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae56.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_aae56.dir/src.c.o -o cmTC_aae56 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_460d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_460d0.dir/build.make CMakeFiles/cmTC_460d0.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_460d0.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_460d0.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_460d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460d0.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_460d0.dir/src.c.o -o cmTC_460d0 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bad5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bad5f.dir/build.make CMakeFiles/cmTC_bad5f.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bad5f.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_bad5f.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_bad5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bad5f.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_bad5f.dir/src.c.o -o cmTC_bad5f 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97294/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97294.dir/build.make CMakeFiles/cmTC_97294.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_97294.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_97294.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_97294
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97294.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_97294.dir/src.cxx.o -o cmTC_97294 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15452/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15452.dir/build.make CMakeFiles/cmTC_15452.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_15452.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_15452.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+Linking C executable cmTC_15452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15452.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_15452.dir/src.c.o -o cmTC_15452 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6762/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6762.dir/build.make CMakeFiles/cmTC_d6762.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d6762.dir/cpu_rvv.cpp.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE -std=c++11 -o CMakeFiles/cmTC_d6762.dir/cpu_rvv.cpp.o -c /home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp
+/home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp:4:12: fatal error: riscv_vector.h: No such file or directory
+    4 | #  include <riscv_vector.h>
+      |            ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d6762.dir/build.make:78：CMakeFiles/cmTC_d6762.dir/cpu_rvv.cpp.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_d6762/fast] 错误 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp'
+    check option: ' -march=rv64gcv -DCV_RVV_SCALABLE'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6682f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6682f.dir/build.make CMakeFiles/cmTC_6682f.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6682f.dir/cpu_rvv.cpp.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -march=rv64gcv -DCV_RVV_SCALABLE -std=c++11 -o CMakeFiles/cmTC_6682f.dir/cpu_rvv.cpp.o -c /home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp
+/home/hexintek/Moment/Code/Demo/opencv/cmake/checks/cpu_rvv.cpp:4:12: fatal error: riscv_vector.h: No such file or directory
+    4 | #  include <riscv_vector.h>
+      |            ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6682f.dir/build.make:78：CMakeFiles/cmTC_6682f.dir/cpu_rvv.cpp.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_6682f/fast] 错误 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4edd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4edd.dir/build.make CMakeFiles/cmTC_d4edd.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d4edd.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_d4edd.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_d4edd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4edd.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc  -O3 -DNDEBUG CMakeFiles/cmTC_d4edd.dir/src.c.o -o cmTC_d4edd 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4102a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4102a.dir/build.make CMakeFiles/cmTC_4102a.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1”
+Building C object CMakeFiles/cmTC_4102a.dir/OFF64_T.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4102a.dir/OFF64_T.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1/OFF64_T.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1/OFF64_T.c:27:22: error: 'off64_t' undeclared here (not in a function); did you mean 'off_t'?
+   27 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1/OFF64_T.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_4102a.dir/build.make:78：CMakeFiles/cmTC_4102a.dir/OFF64_T.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-ZflgE1”
+gmake: *** [Makefile:127：cmTC_4102a/fast] 错误 2
+
+
+OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4371/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4371.dir/build.make CMakeFiles/cmTC_f4371.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f4371.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_f4371.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+Linking C executable cmTC_f4371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4371.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f4371.dir/src.c.o -o cmTC_f4371 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-GHefqj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5f9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5f9f.dir/build.make CMakeFiles/cmTC_e5f9f.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-GHefqj”
+Building C object CMakeFiles/cmTC_e5f9f.dir/CheckIncludeFile.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e5f9f.dir/CheckIncludeFile.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-GHefqj/CheckIncludeFile.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-GHefqj/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e5f9f.dir/build.make:78：CMakeFiles/cmTC_e5f9f.dir/CheckIncludeFile.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-GHefqj”
+gmake: *** [Makefile:127：cmTC_e5f9f/fast] 错误 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa5e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa5e8.dir/build.make CMakeFiles/cmTC_aa5e8.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5”
+Building C object CMakeFiles/cmTC_aa5e8.dir/int8.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_aa5e8.dir/int8.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5/int8.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5/int8.c:27:22: error: 'INT8' undeclared here (not in a function); did you mean 'INT8_C'?
+   27 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5/int8.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_aa5e8.dir/build.make:78：CMakeFiles/cmTC_aa5e8.dir/int8.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-1i6en5”
+gmake: *** [Makefile:127：cmTC_aa5e8/fast] 错误 2
+
+
+int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a918/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a918.dir/build.make CMakeFiles/cmTC_7a918.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS”
+Building C object CMakeFiles/cmTC_7a918.dir/int16.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_7a918.dir/int16.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS/int16.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS/int16.c:27:22: error: 'INT16' undeclared here (not in a function); did you mean 'INT16_C'?
+   27 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS/int16.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_7a918.dir/build.make:78：CMakeFiles/cmTC_7a918.dir/int16.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rLQyXS”
+gmake: *** [Makefile:127：cmTC_7a918/fast] 错误 2
+
+
+int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0baaf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0baaf.dir/build.make CMakeFiles/cmTC_0baaf.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ”
+Building C object CMakeFiles/cmTC_0baaf.dir/int32.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0baaf.dir/int32.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ/int32.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ/int32.c:27:22: error: 'INT32' undeclared here (not in a function); did you mean 'INT32_C'?
+   27 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ/int32.c:29:12: note: in expansion of macro 'SIZE'
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_0baaf.dir/build.make:78：CMakeFiles/cmTC_0baaf.dir/int32.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-snmAJJ”
+gmake: *** [Makefile:127：cmTC_0baaf/fast] 错误 2
+
+
+int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-STQjGe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b495/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b495.dir/build.make CMakeFiles/cmTC_9b495.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-STQjGe”
+Building C object CMakeFiles/cmTC_9b495.dir/CheckFunctionExists.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_9b495.dir/CheckFunctionExists.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-STQjGe/CheckFunctionExists.c
+Linking C executable cmTC_9b495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b495.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9b495.dir/CheckFunctionExists.c.o -o cmTC_9b495 
+/home/hexintek/Moment/software/riscv/lib/gcc/riscv64-unknown-linux-gnu/12.2.0/../../../../riscv64-unknown-linux-gnu/bin/ld: CMakeFiles/cmTC_9b495.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9b495.dir/build.make:99：cmTC_9b495] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-STQjGe”
+gmake: *** [Makefile:127：cmTC_9b495/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30214/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30214.dir/build.make CMakeFiles/cmTC_30214.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_30214.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_30214.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_30214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30214.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_30214.dir/src.cxx.o -o cmTC_30214 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31e78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31e78.dir/build.make CMakeFiles/cmTC_31e78.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_31e78.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_31e78.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics
+Linking C executable cmTC_31e78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31e78.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_31e78.dir/src.c.o -o cmTC_31e78 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option '-Wno-documentation' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3719/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3719.dir/build.make CMakeFiles/cmTC_a3719.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a3719.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_a3719.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option '-Wno-documentation' may have been intended to silence earlier diagnostics
+Linking C executable cmTC_a3719
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3719.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a3719.dir/src.c.o -o cmTC_a3719 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0cd02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0cd02.dir/build.make CMakeFiles/cmTC_0cd02.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk”
+Building C object CMakeFiles/cmTC_0cd02.dir/CheckSymbolExists.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0cd02.dir/CheckSymbolExists.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk/CheckSymbolExists.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk/CheckSymbolExists.c: In function 'main':
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk/CheckSymbolExists.c:8:19: error: '_aligned_malloc' undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_0cd02.dir/build.make:78：CMakeFiles/cmTC_0cd02.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-nQVyXk”
+gmake: *** [Makefile:127：cmTC_0cd02/fast] 错误 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option '-Wno-null-pointer-subtraction' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2159/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2159.dir/build.make CMakeFiles/cmTC_c2159.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c2159.dir/src.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_c2159.dir/src.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option '-Wno-null-pointer-subtraction' may have been intended to silence earlier diagnostics
+Linking C executable cmTC_c2159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2159.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c2159.dir/src.c.o -o cmTC_c2159 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-5dKwIP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_afd0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afd0a.dir/build.make CMakeFiles/cmTC_afd0a.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-5dKwIP”
+Building C object CMakeFiles/cmTC_afd0a.dir/CheckFunctionExists.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_afd0a.dir/CheckFunctionExists.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-5dKwIP/CheckFunctionExists.c
+Linking C executable cmTC_afd0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afd0a.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_afd0a.dir/CheckFunctionExists.c.o -o cmTC_afd0a 
+/home/hexintek/Moment/software/riscv/lib/gcc/riscv64-unknown-linux-gnu/12.2.0/../../../../riscv64-unknown-linux-gnu/bin/ld: CMakeFiles/cmTC_afd0a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_afd0a.dir/build.make:99：cmTC_afd0a] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-5dKwIP”
+gmake: *** [Makefile:127：cmTC_afd0a/fast] 错误 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6437b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6437b.dir/build.make CMakeFiles/cmTC_6437b.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6437b.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_6437b.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_6437b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6437b.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6437b.dir/src.cxx.o -o cmTC_6437b 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_682d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_682d4.dir/build.make CMakeFiles/cmTC_682d4.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_682d4.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_682d4.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_682d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_682d4.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_682d4.dir/src.cxx.o -o cmTC_682d4 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fbcc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fbcc.dir/build.make CMakeFiles/cmTC_8fbcc.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_8fbcc.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_8fbcc.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_8fbcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbcc.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8fbcc.dir/src.cxx.o -o cmTC_8fbcc 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d59c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d59c.dir/build.make CMakeFiles/cmTC_7d59c.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7d59c.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_7d59c.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_7d59c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d59c.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7d59c.dir/src.cxx.o -o cmTC_7d59c 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option '-Wno-comma' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2673c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2673c.dir/build.make CMakeFiles/cmTC_2673c.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2673c.dir/src.cxx.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_2673c.dir/src.cxx.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option '-Wno-comma' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2673c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2673c.dir/link.txt --verbose=1
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-g++ --sysroot=/home/hexintek/Moment/software/riscv/sysroot -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2673c.dir/src.cxx.o -o cmTC_2673c 
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-oYt83V
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e97a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e97a.dir/build.make CMakeFiles/cmTC_4e97a.dir/build
+gmake[1]: 进入目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-oYt83V”
+Building C object CMakeFiles/cmTC_4e97a.dir/CheckIncludeFile.c.o
+/home/hexintek/Moment/software/riscv/bin/riscv64-unknown-linux-gnu-gcc --sysroot=/home/hexintek/Moment/software/riscv/sysroot   -march=rv64gc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4e97a.dir/CheckIncludeFile.c.o -c /home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-oYt83V/CheckIncludeFile.c
+/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-oYt83V/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_4e97a.dir/build.make:78：CMakeFiles/cmTC_4e97a.dir/CheckIncludeFile.c.o] 错误 1
+gmake[1]: 离开目录“/home/hexintek/Moment/Code/Demo/opencv/build/CMakeFiles/CMakeScratch/TryCompile-oYt83V”
+gmake: *** [Makefile:127：cmTC_4e97a/fast] 错误 2
+
+
+

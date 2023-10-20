@@ -1,0 +1,22 @@
+3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3sm.c.o: \
+ /home/hexintek/Moment/Code/Demo/opencv/3rdparty/libtiff/tif_fax3sm.c \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/stdc-predef.h \
+ /home/hexintek/Moment/software/riscv/lib/gcc/riscv64-unknown-linux-gnu/12.2.0/include/stdint.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/stdint.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/features.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/sys/cdefs.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/wordsize.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/long-double.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/gnu/stubs.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/types.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/timesize.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/typesizes.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/time64.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/wchar.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/stdint-intn.h \
+ /home/hexintek/Moment/software/riscv/sysroot/usr/include/bits/stdint-uintn.h \
+ /home/hexintek/Moment/Code/Demo/opencv/3rdparty/libtiff/tiff.h \
+ /home/hexintek/Moment/Code/Demo/opencv/build/3rdparty/libtiff/tiffconf.h \
+ /home/hexintek/Moment/Code/Demo/opencv/3rdparty/libtiff/tif_fax3.h
